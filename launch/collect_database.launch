@@ -1,0 +1,8 @@
+<launch>
+    <node name="collect_database" pkg="lidar_200" type="collect_database" output="screen"> 
+        <!-- <param name="DIR_MAP" type="string" value="/media/spcomen21/WD5T/Experiment/LiDAR-200/kitti/06/map/" /> -->
+        <!-- <param name="PARA_LENGTH" type="double" value="1.0" /> -->
+        <param name="DIR_MAP" type="string" value="/media/spcomen21/WD5T/Experiment/LiDAR-200/MulRan/DCC01/map/" />
+        <param name="PARA_LENGTH" type="double" value="2.0" />
+    </node>
+</launch>

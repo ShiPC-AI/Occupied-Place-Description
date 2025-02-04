@@ -1,0 +1,9 @@
+<launch>
+    <node name="play_mulran" pkg="lidar_200" type="play_mulran" output="screen"> 
+        <!-- <param name="DIR_PCD" type="string" value="/media/spcomen21/WD5T/Dataset/MulRan/DCC01/ouster_pcd/"/>
+        <param name="PATH_POSE" type="string" value="/media/spcomen21/WD5T/Dataset/MulRan/DCC01/lidar_pose.txt" /> -->
+        <param name="DIR_PCD" type="string" value="/media/spcomen21/WD5T/Dataset/MulRan/DCC01/sampled_data/pcd_1m/"/>
+        <param name="PATH_POSE" type="string" value="/media/spcomen21/WD5T/Dataset/MulRan/DCC01/sampled_data/lidar_pose_1m.txt" />
+        <param name="SKIP_NUM" type="int" value="1" />
+    </node>
+</launch>

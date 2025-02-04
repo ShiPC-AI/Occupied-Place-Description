@@ -1,0 +1,7 @@
+<launch>
+    <node name="play_kitti" pkg="lidar_200" type="play_kitti" output="screen"> 
+        <param name="dataset_folder" type="string" value="/media/spcomen21/WD5T/Dataset/kitti/sequences/" />
+        <param name="seq_number" type="string" value="06" />
+        <param name="skip_num" type="int" value="1" />
+    </node>
+</launch>
