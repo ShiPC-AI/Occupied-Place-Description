@@ -4,15 +4,14 @@
 
 **Occupied-Place-Description**, also referred to as **LiDAR-OnLoc**, is an online LiDAR localization solution that leverages a point cloud map and sequential LiDAR scans. This packsge employs a point cloud map and sequential LiDAR scans as input to compute a 3-DOF global pose, enabling both global **pose estimation** and **place recognition**. This package consists of four modules. The map data generation stitches a point cloud map using offline recorded data and builds a hybrid map database including candidate points and map descriptors. The trajectory initialization selects a few scans from the beginning of the sequence to calculate the vehicle’s poses and initialize the trajectory. After obtaining the initial trajectory, the online localization calculates the vehicle’s poses based on a single online LiDAR scan. The adaptive pose adjustment exploits the displacement error and matching score to correct the false localization and detect revisited places. 
 
-<figure align="center">
-    <img src="media/pipeline.jpg" alt="drawing" width="450"/>
-    <figcaption><strong>Overall Framework</strong></figcaption>
-</figure>
-
+<p align="center">
+    <img src="media/pipeline.jpg" alt="drawing" width="450"/> <br>
+    <strong>Overall Framework</strong>
+</p>
 
 |  Trajectory Initialization         |       Online Localization          |
 |:----------------------------------:|:----------------------------------:|
-|![pipeline](media/initialization.jpg)|![online_loc](media/online_loc.jpg)|
+|![initial](media/initialization.jpg)|![online_loc](media/online_loc.jpg)|
 
 > **Note:** The current version uses both the KD tree and hash tables.
 ---
