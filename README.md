@@ -84,7 +84,7 @@ Due to the large number of scans in MulRan, we generate a keyframe every one met
 A "database" subdirectory should be created within the "map" directory, and all files generated during offline map processing will be stored within these directories.
 ```
 ├── kitti/MulRan
-│   └── 07/DCC01
+│   └── 06/DCC01
 │       └── map
 │           ├── candidate_pts.pcd 
 │           ├── pass_map.pcd
