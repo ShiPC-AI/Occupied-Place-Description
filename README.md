@@ -58,7 +58,7 @@ Using KITTI as an example, despite issues with the correction file, it is utiliz
 1. **KITTI dataset**
 ```
 ├── kitti
-│   └── 07
+│   └── 06
 │       ├── lidar_pose.txt
 │       ├── times.txt
 │       └── velodyne
