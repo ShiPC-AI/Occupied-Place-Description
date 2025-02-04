@@ -9,7 +9,7 @@
     <strong>Overall Framework</strong>
 </p>
 
-|  Trajectory Initialization         |       Online Localization          |
+|  Trajectory Initialization         |   Online Localization              |
 |:----------------------------------:|:----------------------------------:|
 |![initial](media/initialization.jpg)|![online_loc](media/online_loc.jpg)|
 
@@ -24,7 +24,7 @@
 
 2. **MulRan DCC01**
 
-|            Offline Mapping         |   Online Localization              |
+|  Offline Mapping                   |   Online Localization              |
 |:----------------------------------:|:----------------------------------:|
 |![06-map](media/DCC01-map.gif)         |![locate](media/DCC01-locate.gif)      |
 
